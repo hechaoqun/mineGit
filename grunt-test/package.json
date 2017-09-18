@@ -1,0 +1,20 @@
+{
+ "name": "grount-test",
+ "version": "1.0.0",
+ "_version": "3.1",
+ "devDependencies": {
+  "grunt": "^1.0.1",
+  "grunt-contrib-uglify": "^3.1.0",
+  "load-grunt-config": "^0.19.2",
+  "grunt-contrib-jshint": "~0.6.0",
+  "grunt-contrib-nodeunit": "~0.2.0",
+  "grunt-contrib-watch": "*",
+  "grunt-contrib-connect": "*",
+  "grunt-contrib-imagemin": "*",
+  "grunt-concurrent": "*",
+  "grunt-scp": "0.1.7",
+  "less": "1.7.3",
+  "walk": "*",
+  "time-grunt": "*"
+ }
+}
