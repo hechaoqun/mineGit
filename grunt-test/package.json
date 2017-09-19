@@ -1,20 +1,24 @@
 {
- "name": "grount-test",
+ "name": "onScroll",
  "version": "1.0.0",
- "_version": "3.1",
+ "_version": "1.1",
  "devDependencies": {
   "grunt": "^1.0.1",
-  "grunt-contrib-uglify": "^3.1.0",
-  "load-grunt-config": "^0.19.2",
-  "grunt-contrib-jshint": "~0.6.0",
-  "grunt-contrib-nodeunit": "~0.2.0",
-  "grunt-contrib-watch": "*",
+  "grunt-concurrent": "*",
   "grunt-contrib-connect": "*",
   "grunt-contrib-imagemin": "*",
-  "grunt-concurrent": "*",
+  "grunt-contrib-jshint": "~0.6.0",
+  "grunt-contrib-nodeunit": "~0.2.0",
+  "grunt-contrib-uglify": "^3.1.0",
+  "grunt-contrib-watch": "*",
+  "grunt-img-sprite": "^0.2.1",
   "grunt-scp": "0.1.7",
+  "grunt-spritesmith": "^6.4.0",
   "less": "1.7.3",
-  "walk": "*",
-  "time-grunt": "*"
+  "load-grunt-config": "^0.19.2",
+  "minjs": "^2.0.6",
+  "ngbp-contrib-minjs": "0.0.1",
+  "time-grunt": "*",
+  "walk": "*"
  }
 }

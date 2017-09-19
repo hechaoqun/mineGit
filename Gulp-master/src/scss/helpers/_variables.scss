@@ -1,0 +1,14 @@
+$colors: #ff9900 #DDDDDD #EFEFEF;
+
+@mixin marpad($mar: 0, $pad: 0) {
+    margin: $mar;
+    padding: $pad;
+}
+
+@mixin cutstr($row: 2) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $row;
+    -webkit-box-orient: vertical;
+}

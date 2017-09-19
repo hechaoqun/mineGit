@@ -1,0 +1,4 @@
+body{
+    background-color: nth($colors, 2);
+    @include marpad();
+}

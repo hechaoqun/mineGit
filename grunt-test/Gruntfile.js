@@ -22,6 +22,9 @@ module.exports = function(grunt){
 	//测试压缩js 文件
 	grunt.registerTask('test',['uglify']);
 
+	//生成雪碧图
+	grunt.registerTask('icon',['sprite']);
+
 	//告诉grunt当我们的终端中输入grunt的时需要做些什么（注意先后顺序）
 	grunt.registerTask('default',[]);
 

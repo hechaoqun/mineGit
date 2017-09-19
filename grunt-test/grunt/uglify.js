@@ -6,13 +6,18 @@ module.exports = {
     },
     build: {
         files: {
-            'dist/script/<%= pkg.name %>_<%= pkg._version %>.js': ['src/common.js'],
-            'dist/script/ext/<%= pkg.name %>_<%= pkg._version %>_ext.js': ['dist/script/ext/<%= pkg.name %>_<%= pkg._version %>_origin_ext.js']
-        }
+            'dist/script/<%= pkg.name %>_<%= pkg._version %>.js': ['src/js/*.js']}
     },
     hiwifi: {
         files: {
             'dist/script/<%= pkg.name %>_<%= pkg._version %>_hiwifi.js': ['dist/script/<%= pkg.name %>_<%= pkg._version %>_origin.js']
         }
     }
+    // min:{
+    //         expand:true,
+    //         cwd:'src/js',
+    //         src:'*.js',
+    //         dest:'dist/script',
+    //         ext:'min'
+    // }
 };

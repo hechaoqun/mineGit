@@ -1,0 +1,1 @@
+"use strict";var toFixed=function(o){return o.toFixed(2)};console.log(toFixed(100));var fun={forNum:function(o){for(var n=0;n<o;n++)console.log(n)}};fun.forNum(100);

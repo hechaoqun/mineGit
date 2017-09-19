@@ -1,0 +1,8 @@
+.container {
+    width: 100%;
+    height: 2rem;
+    background-color: #006633;
+    transition: all 1s ease;
+    transform: scale(0.5);
+    @include cutstr(3);
+}
