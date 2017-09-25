@@ -6,7 +6,7 @@ module.exports = {
     },
     build: {
         files: {
-            'dist/script/<%= pkg.name %>_<%= pkg._version %>.js': ['src/js/*.js']}
+            'dist/script/<%= pkg.name %>_<%= pkg._version %>.js': ['src/js/shuzibi/*.js']}
     },
     hiwifi: {
         files: {

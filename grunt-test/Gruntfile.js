@@ -22,6 +22,9 @@ module.exports = function(grunt){
 	//测试压缩js 文件
 	grunt.registerTask('test',['uglify']);
 
+	//压缩合并css
+	grunt.registerTask('csstest',['cssmin']);
+
 	//生成雪碧图
 	grunt.registerTask('icon',['sprite']);
 

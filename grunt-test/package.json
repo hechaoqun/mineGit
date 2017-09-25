@@ -1,11 +1,12 @@
 {
  "name": "onScroll",
  "version": "1.0.0",
- "_version": "1.1",
+ "_version": "1.2",
  "devDependencies": {
   "grunt": "^1.0.1",
   "grunt-concurrent": "*",
   "grunt-contrib-connect": "*",
+  "grunt-contrib-cssmin": "^2.2.1",
   "grunt-contrib-imagemin": "*",
   "grunt-contrib-jshint": "~0.6.0",
   "grunt-contrib-nodeunit": "~0.2.0",

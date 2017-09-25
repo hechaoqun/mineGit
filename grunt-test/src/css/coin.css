@@ -1,0 +1,1584 @@
+/*** coin ***/
+.coin{ width:100%; background:#ffd633;}
+.coin_banner{ width:1000px; margin:0 auto; background:url(../images/coin_top.jpg) no-repeat; height:260px; position:relative;}
+.coin_banner .volume{ width:256px; position:absolute; right:0; top:25px;}
+.coin_banner .volume ul li{ width:225px; height:38px; line-height:38px; color:#333; margin:0 auto;}
+.coin_banner .volume ul li .number{ color:#f60;}
+.news_coin a{ display:block; height:40px; width:256px; border-radius:5px; background:#f70; color:#fff; font-size:14px; text-align:center; line-height:40px; text-decoration:none; margin-top:20px;}
+.news_coin a:hover{ background:#f60;}
+.coinarea{ width:1000px;}
+.coinarea .for_coin{ height:42px; margin-top:20px;}
+.coinarea .for_coin li{ float:left; width:120px; text-align:center; height:42px; line-height:42px; margin-right:5px;}
+.coinarea .for_coin li a{ display:block; height:42px; text-decoration:none; color:#333; font-size:16px;}
+.coinarea .for_coin li a:hover{ color:#f60;}
+.coinarea .for_coin li .current{ color:#f60; background:url(../images/forcoin_bg.jpg) no-repeat; height:42px;}
+.coinarea .bgcolor{ border-top:2px solid #ccc; margin-top:-2px; _border:0; _margin-top:0px;}
+.coinarea .coin_list{ width:1000px;}
+.coinarea .coin_list thead tr{ height:40px; color:#333;}
+.coinarea .coin_list thead tr th{ padding-right:10px; text-align:right; background:#eee; font-size:12px;}
+/*.coinarea .coin_list thead tr .header{ background:#eee url(../images/bg.gif) center right no-repeat; cursor: pointer;}
+.coinarea .coin_list thead tr .headerSortDown{ background: url(../images/desc.gif);}
+.coinarea .coin_list thead tr .headerSortUp{ background: url(../images/asc.gif);}*/
+.coinarea .coin_list tbody tr:hover{ background:#f6f6f6;}
+.coinarea .coin_list tbody tr td{ border-bottom:1px solid #f2f2f2; height:40px; text-align:right; font-size:14px;}
+.coinarea .coin_list tbody tr td a{ display:block; color:#333; text-decoration:none; padding-right:10px; height:40px; line-height:40px;}
+.coinarea .coin_list tbody tr td .buy{ color:#f60;}
+.coinarea .coin_list tbody tr td .sell{ color:#3c0;}
+.coinarea .coin_list tbody .coin_num .coin_name{ text-align:left; font-weight:bold; color:#333;}
+.coinarea .coin_list tbody .coin_num td img{ margin-top:10px;}
+
+#tags_coin #tags li { float: left; width:120px;}
+#tags_coin #tags li a{ display:block; height:42px; text-decoration:none; color:#333; font-size:16px; background:none; width:120px; cursor:pointer;}
+#tags_coin #tags li.selectTag a{ color:#f60; background:url(../images/forcoin_bg.jpg) center top no-repeat; height:42px;}
+.tagContent{ display:block;}
+#tagContent div.selectTag { display: block;}
+
+.risk{width:1000px; margin:0 auto; color:#666; font-size:14px;  border:1px solid #eee; border-radius:5px; height:60px; margin-top:30px; background:#f8f8f8;}
+.risk .risk_tishi{ width:100px; height:60px; line-height:60px; font-size:16px; background:#f60; color:#fff; text-align:center;  border-radius:4px 0 0 4px;}
+.risk .risk_con{ width:878px; line-height:20px; padding:10px 10px 0 10px;}
+.risk .risk_con a{ margin:0 5px; color:#f60; text-decoration:none;}
+.risk .risk_con a:hover{ text-decoration:underline;}
+
+/*** ±Ò±Ò½»Ò×ÏêÏ¸Ò³Ãæ ***/
+#main .total_top{ width:100%;padding:16px 0;margin:0;border:0;}
+.price{ width:1140px; margin:0 auto; font-size:14px; line-height:22px; color:#333;border: 1px solid #DDDDDD;height: 65px;}
+.price .now_price{
+	width: 944px;
+	height: 100%;
+    display: flex;
+}
+.price .now_price li h5{
+    height: 19px;
+    line-height: 19px;
+    text-align: left;
+    font-size: 14px;
+    color: #333333;
+}
+.price .coin_coin{ font-size:20px; line-height:50px;min-width: 195px;border-right: 1px solid #DDD;text-align: center;height: 100%;font-weight: 600;}
+.price .coin_coin img{
+	position: relative;
+	top:8px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.total_top{ width:100%; background:#fff; padding:20px 0; margin-bottom:30px; border-bottom:1px dotted #ddd;}
+.price{ width:1140px; margin:0 auto; font-size:14px; line-height:22px; color:#333;}
+.price .coin_coin{ font-size:20px; line-height:66px;}
+.price span{ font-size:20px; color:#000;}
+.now_price li{ float:left; line-height:50px; font-size:14px; color:#333;flex: 1;border-right: 1px solid #DDD;text-align: center;padding: 9px 6px;box-sizing: border-box;width: 20%;}
+.now_price li:nth-child(5){
+	border-right: none;
+}
+.now_price li span{ font-size:20px; color:#000;font-weight: 600;}
+.now_price li .rmbPrice{margin-left: 0px;}
+.now_price li span{
+    display: inline-block;
+    height: 21px;
+    line-height: 21px;
+    font-size: 14px;
+    float: left;
+    margin-top: 7px;
+}
+.now_price li .rmbPrice{
+    font-size: 12px;
+    line-height: 23px;
+    color: #555555;
+    font-weight: 500;
+    float: right;
+}
+.now_price li .sell{ color:#009900;}
+.now_price li .buy{ color:#E62512;}
+.now_price li .status.sell{ 
+    width: 13px;
+    height: 17px;
+    display: inline-block;
+    background: url(//static.shuzibi.com/Home/images/index/sell.png) no-repeat;
+    position: relative;
+    top: 10px;
+    float: right;
+    margin: 0 0 0 4px;
+}
+.now_price li .status.buy{
+    width: 13px;
+    height: 17px;
+    display: inline-block;
+    background: url(//static.shuzibi.com/Home/images/index/buy.png) no-repeat;
+    position: relative;
+    top: 10px;
+    float: right;
+    margin: 0 0 0 2px;
+}
+.k_img{background:#fff; width: 834px;float: right;}
+.my_coin{ border:1px solid #e2e2e2; padding:15px 0 15px 20px; margin:30px 0; font-size:14px; color:#666; background:#fff;}
+.my_coin p a{ color:#333; text-decoration:underline;}
+.my_coin p a:hover{ color:#f60;}
+.my_coin ul{ height:24px;}
+.my_coin ul li{ float:left; width:172px; line-height:24px; color:#666;}
+.pay{ width:100%; border:0; background:none;}
+.pay .buysell{ padding:0; margin:0;}
+.pay .buysell .buyformarea{ width:409px;height: 430px; background:#fff;padding: 23px 20px;background: #F5F9FE;box-sizing: border-box;margin-right: 16px;}
+.pay .buysell .buyformarea:nth-child(2){margin:0;}
+.buyformarea .buy{ color:#333;font-size: 18px;line-height: 28px;margin-bottom: 20px;font-weight: bold;}
+.buyformarea .sell{color: #333;font-size: 18px;line-height: 28px;margin-bottom: 20px;font-weight: bold;}
+.sellform li .buy{ color:#e00; font-size:16px; padding:0; font-weight:normal;}
+.sellform li .sell{ color:#690; font-size:16px; padding:0; font-weight:normal;}
+.sellform li label{ width:90px;}
+.sellform li{ height:30px; line-height:30px;}
+.sellform li input{ height:24px; line-height:24px; width:190px; vertical-align:middle;}
+.sellform li span{ font-size:12px; color:#999;}
+
+.sellform .submit{width:100%;height:42px; background:#E62512;font-size:18px;color:#fff;cursor:pointer; border:none;border-radius:5px; font-family:"Î¢ÈíÑÅºÚ";}
+.sellform .submit:hover{ background:#C7281D;}
+.sellform2 .submit{width:100%; height:42px; background: #009900;font-size:18px;color:#fff;cursor:pointer; border:none;border-radius:5px; font-family:"Î¢ÈíÑÅºÚ";}
+.sellform2 .submit:hover{background:#028802;}
+.sellform .tishi{ color:#f00; line-height:24px;font-size: 12px;margin:0;}
+
+/*.sellform .submit{width:260px; height:40px; background:#ff0000;font-size:18px;color:#fff;cursor:pointer; border:none;border-radius:5px; font-family:"Î¢ÈíÑÅºÚ";}
+.sellform .submit:hover{ background:#ba0000;}
+.sellform2 .submit{width:260px; height:40px; background:#690;font-size:18px;color:#fff;cursor:pointer; border:none;border-radius:5px; font-family:"Î¢ÈíÑÅºÚ";}
+.sellform .submit{width:260px;  height:40px; background:#ff0000;font-size:18px;color:#fff;cursor:pointer; border:none;border-radius:5px; font-family:"΢���ź�";}
+.sellform .submit:hover{ background:#ba0000;}
+.sellform2 .submit{width:260px; height:40px; background:#690;font-size:18px;color:#fff;cursor:pointer; border:none;border-radius:5px; font-family:"΢���ź�";}
+.sellform2 .submit:hover{background:#4b7100;}
+.sellform .tishi{ color:#f00; line-height:24px; padding-left:15px;}*/
+.my_title{ background:#e2e2e2; height:28px;}
+.my_title li{ float:left; text-align:center; line-height:28px; font-weight:bold; color:#333;}
+.my_record{ min-height:70px; _height:170px;background:#fff;}
+.record{background:#fff;margin-bottom: 30px;}
+.record_list{ width:638px; background:#fff;}
+.record_title{ background:#e2e2e2; height:28px;}
+.record_title li{ float:left; height:28px; line-height:28px; width:107px; padding-left:20px; text-align:left; font-weight:bold; color:#333;}
+.record_list{ width:638px; background:#fff;}
+.record_list .list_con1{ background:#fff;}
+.record_list .list_con2{ background:#f6f6f6;}
+.record_list tr,.record_list tr{ height:28px;}
+.record_list tr td,.record_list tr th{ width:107px; height:28px; border:none; text-align:left; padding-left:20px;}
+.weituo tr td{ height:38px; border-bottom:0; text-align:right;color: #333;font-size: 14px;}
+.weituo tr{ height:28px;}
+.weituo .list_con1{ background:#fff;}
+.weituo .list_con2{ background: #fff;}
+.weituo tr .sell{ color: #009900;}
+.weituo tr .buy{ color: #E62512;}
+.weituo tr .left_sell{ width:80px; text-align:right; padding-left:0px;}
+.weituo tr .left_buy{ width:70px;}
+.weituo tr th{text-align:right;background: #F5F9FE;height: 50px;font-size: 14px;}
+.weituo tr th:nth-child(1){text-align: right;}
+.weituo tr .buy40{ width:40px;}
+.weituo tr .buy60{ width:60px; text-align:center; padding-left:0;}
+.weituo tr .buy80{ width:80px;}
+.weituo tr td .buySpan{ display:block; height:15px; background:#f88; margin-right:3px;}
+.weituo tr td .sellSpan{ display:block; height:15px; background:#a4c85d; margin-right:3px;}
+
+.more_coin{ width:310px;  margin-top:30px; height:48px;}
+.more_coin a{ display:block; width:200px; margin:0 auto; border-radius:5px; background:#f70; color:#fff; font-size:16px; text-align:center; height:48px; line-height:48px; text-decoration:none;}
+.more_coin a:hover{ background:#f60; color:#fff;}
+/******/
+.abc_notice{ text-align:center; margin-top:10px;}
+.abc_notice a{ color:#333; font-size:14px; text-decoration:underline;display: block;}
+.abc_notice a:hover{ color:#f60;}
+
+/*** newpage ***/
+.coin_header{ width:1200px;}
+.ybcoin_banner{position:absolute; left:50%; margin-left:-960px; height:360px; background:#fbfaf8; border-bottom:1px solid #f2f2f2;}
+.ybcoin_banner .banner_area{ position:absolute; height:360px; overflow:hidden;top:0px;left:0px}
+.bannerbtn{ position:absolute; top:80px; right:50%; margin-right:-325px;}
+.registMBtn{margin-right:25px;}
+.ybcoin_banner #focus {width:1920px; margin:0 auto; height:360px; overflow:hidden; position:relative;}
+.ybcoin_banner #focus ul {height:360px; position:absolute;}
+.ybcoin_banner #focus ul li {float:left; width:1920px; height:360px; overflow:hidden; position:relative; background:#000;}
+.ybcoin_banner #focus ul li div {position:absolute; overflow:hidden;}
+.ybcoin_banner #focus .btnBg {position:absolute; width:1920px; height:20px; left:0; bottom:0;}
+.ybcoin_banner #focus .btn {position:absolute; width:1920px; height:12px; padding:8px 10px; right:0; bottom:0; text-align:center;}
+.ybcoin_banner #focus .btn span {display:inline-block; _display:inline; _zoom:1; width:12px; height:12px; border-radius:6px; _font-size:0; margin-left:15px; cursor:pointer; background:#fff;}
+.ybcoin_banner #focus .btn span.on {background:#fff;}
+.ybcoin_banner #focus .preNext{ display:none;}
+.ybcoin_volume{ position:absolute; left:50%; top:25px; margin-left:280px; width:260px; height:240px; background:rgba(0,0,0,0.3); padding:20px; z-index:100;}
+.ybcoin_volume ul li{ color:#fff; font-size:14px; line-height:38px; width:260px;}
+.ybcoin_volume ul li .number{ color:#ff0;}
+.ybcoin_volume ul li .number strong{ font-weight:normal; color:#ff0;}
+.ybcoin_volume .news_coin a{ display:block; width:260px; height:48px; line-height:48px; font-size:18px; color:#fff; background:#f60; border-radius:5px; text-align:center; margin-top:15px;}
+.ybcoin_volume .news_coin a:hover{ background:#f70;}
+
+.ybcoin_section{ width:1200px; margin:0 auto;}
+.ybcoin_section .coinarea{ width:850px;}
+.coin_news{ width:320px; margin-top:20px;}
+.coin_news .news_title{ border-bottom:1px solid #ccc; padding:11px 5px 11px 0; height:18px; line-height:18px;}
+.coin_news .news_title h2{ font-size:16px; font-weight:normal; border-left:4px solid #f70; padding-left:8px; color:#333;}
+.coin_news .news_title a{ color:#666;}
+.coin_news .news_title a:hover{ color:#f60; text-decoration:none;}
+.coin_news ul li{ padding:0 5px; height:32px; line-height:32px;}
+.coin_news ul li:hover{ background:#f6f6f6;}
+.coin_news ul li .coin_news_title{ width:260px; height:32px; line-height:32px; color:#666; font-size:14px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.coin_news ul li span{ color:#999;}
+
+/*coin_footer*/
+/*.coin_hint h2{ font-size:18px; height:30px; line-height:30px; font-weight:normal; color:#333; background:url(../images/ybc_hint.png) left center no-repeat; padding-left:25px; margin-bottom:10px;}
+.coin_hint p{ line-height:20px; color:#666;}
+.coin_footerbar{ width:100%; border-top:1px solid #eee; padding:30px 0;}
+.coin_footerbar .coin_footer_nav{ width:1200px; margin:0 auto;}
+.coin_nav{ width:200px; height:150px; border-left:1px solid #eee; padding-top:20px;}
+.coin_nav h2{ font-size:18px; font-weight:normal; margin-bottom:10px; padding-left:30px; color:#333;}
+.coin_nav ul{ padding-left:30px;}
+.coin_nav ul li{ height:24px; line-height:24px; font-size:14px; color:#666;}
+.coin_nav ul li a{ line-height:24px; font-size:14px; color:#666;}
+.coin_nav ul li a:hover{ color:#f60; text-decoration:none;}
+.coin_nav p{ text-align:center;}
+.coin_copy{ border:0; width:190px;}
+.coin_copy p{ color:#999;}
+.coin_copy img{ margin:40px 0 10px 0;}
+.coin_sina{ width:24px; height:24px; background:url(../images/coin_sina_logo.png) left top no-repeat; display:block; margin-left:8px;}
+.coin_sina:hover{ background-position:left -24px;}
+.coin_wei{ width:24px; height:24px; background:url(../images/coin_wei.png) left center no-repeat; display:block; margin-left:8px;}
+.coin_nav02{ width:300px; color:#666; font-size:14px;}
+.coin_nav02 .coin_phone400{ font-size:28px; color:#333; margin-top:10px;}
+.coin_nav02 .coin_phoneqq a{ display:block; width:110px; padding-left:20px; height:36px; font-size:18px; margin:10px auto; background:#f70 url(../images/ybc_phoneqq.png) 10px center no-repeat; border-radius:5px; color:#fff; line-height:36px;}
+.coin_nav02 .coin_phoneqq a:hover{ background:#f60 url(../images/ybc_phoneqq.png) 10px center no-repeat; text-decoration:none;}*/
+/**/
+/******/
+
+.coin_reg{ height:24px; line-height:24px; margin-top:12px;}
+.coin_reg a{ color:#fff;}
+/*header 用户中心*/
+.headerUser .person{
+    height: 36px;
+    background: rgba(255,255,255,0.3);
+    margin-left: 20px;
+    margin-top: 22px;
+    padding: 8px 14px;
+    box-sizing: border-box;
+    line-height: 20px;
+    position: relative;
+}
+.headerUser .person .arrow{
+	background: url(//static.shuzibi.com/Home/images/index/Triangle.png) no-repeat;
+	width: 13px;
+	height: 10px;
+	display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top:-4px;
+}
+.headerUser .person .arrow.active{
+    background: url(//static.shuzibi.com/Home/images/index/Triangle_up.png) no-repeat;
+}
+.headerUser .person .mywalletView{
+	min-width: 222px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding-top: 58px;
+}
+.headerUser .person .mywallet{
+	min-width: 222px;
+	padding:14px 13px 25px 16px;
+	background: #FFFFFF;
+	box-shadow: 0 5px 24px 0 rgba(117,175,238,0.50);
+	border-radius: 6px;
+    box-sizing: border-box;
+    position: relative;
+    left: -60px;
+    display: none;
+}
+.headerUser .person .out{
+    z-index: 1001;
+    position: relative;
+    height:20px; 
+    line-height:20px; 
+    margin:0 5px;
+    font-size: 14px;
+    color: #F2F2F2;
+}
+.headerUser .person .uses{
+	z-index: 1001;
+    position: relative;
+    height:20px; 
+    line-height:20px;  
+    margin-right:10px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 85px;
+}
+.headerUser .person .uses em{
+    font-style: inherit;
+    overflow: hidden;
+    max-width: 125px;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+.headerUser .person .mywallet h3{
+	font-size: 18px;
+	color: #333333;
+	margin-bottom: 6px;
+}
+.headerUser .person .information{
+	width: 100%;
+	height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 23px;
+}
+.headerUser .person .information .user_mine{
+    float: right;
+    width: 90px;
+    height: 26px;
+    border: 1px solid #368AE5;
+    border-radius: 6px;
+    background: 0;
+    font-size: 12px;
+    color: #368AE5;
+    line-height: 26px;
+    text-align: center;
+}
+.headerUser .person .information .user_mine:hover{
+	text-decoration: none;
+	background: #368AE5;
+	color: #fff;
+}
+.headerUser .person .assets{
+    font-size: 14px;
+    color: #555555;
+    line-height: 20px;
+}
+.headerUser .person .assets span{
+	font-size: 14px;
+	color: #E62512;
+	margin-left: 11px;
+}
+.headerUser .person .assets_list{
+	width: 100%;
+	margin-top:6px;
+}
+.headerUser .person .assets_list thead{
+	width: 100%;
+	height: 48px;
+}
+.headerUser .person .assets_list thead th{
+	padding:0;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 14px;
+	color: #333333;
+    text-align: center;
+    font-weight: 600;
+    min-width: 50px;
+}
+.headerUser .person .assets_list #assets_detail td{
+	padding:0;
+	text-align: center;
+	height: 26px;
+}
+.headerUser .person .assets_list #assets_detail .detailList:nth-child(1) .pic{
+/*	color: #E62512;*/
+}
+/*大全区主站*/
+.headerUser .person .mywallet .assets{
+    width:100%;
+    height: 19px;
+    margin-bottom: 10px;
+}
+.headerUser .person .mywallet .assets span{
+    float: right;
+}
+.headerUser .person .mywallet .Top_up_area{
+    width: 100%;
+    height: 32px;
+    margin-top: 28px;
+}
+.headerUser .person .mywallet .Top_up_area a{
+    display: inline-block;
+    width: 78px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.headerUser .person .mywallet .Top_up_area a.dpcoin{
+    color: #DA2E22;
+    background: #FDE1DF;
+    float: left;
+}
+.headerUser .person .mywallet .Top_up_area a.wpcoin{
+    color: #368AE5;
+    background: #D3E6FC;
+    float: right;
+}
+.headerUser .person .mywallet .Top_up_area a.dpcoin:hover{
+    color:#fff;
+    text-decoration: none;
+    background: #DA2E22;
+    text-shadow: none;
+}
+.headerUser .person .mywallet .Top_up_area a.wpcoin:hover{
+    color:#fff;
+    text-decoration: none;
+    background: #368AE5;
+    text-shadow: none;
+}
+/*banner*/
+#banner{
+	height:480px; width:100%; position:relative; overflow:hidden; min-width:1140px;
+	background: url(//static.shuzibi.com/Home/images/index/banner.png) no-repeat;
+    background-size: 100% 100%;
+}
+#banner .bannerView{
+	width: 1140px;
+	margin:0 auto;
+	height: 100%;
+	padding:100px 390px 128px;
+	box-sizing: border-box;
+}
+#banner .bannerView h2{
+	font-size: 60px;
+	color: #FFFFFF;
+	line-height: 79px;
+	margin-bottom: 20px;
+}
+#banner .bannerView h4{
+	font-size: 38px;
+	color: #FFFFFF;
+	line-height: 51px;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom:60px;
+}
+#banner .bannerView .go{
+	display: block;
+	width: 136px;
+	height: 42px;
+	background: url(//static.shuzibi.com/Home/images/index/btn_bg.png) no-repeat;
+	background-size: 100%;
+	line-height: 42px;
+	color: #fff;
+	text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 5px 24px 0 #75AFEE;
+    font-size: 18px;
+    border-radius: 6px;
+}
+#banner .bannerView .go:hover{
+	background: #FFB500;
+	text-decoration: none;
+}
+
+/*公告*/
+.newsCoin{
+	width: 100%;
+	height: 33px;
+	padding:7px 0;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+.newsCoin .newsCoin_view{
+	width: 1140px;
+	height: 100%;
+	margin:0 auto;
+    overflow: hidden;
+}
+.newsCoin .newsCoin_view ul{
+    width: 100%; 
+}
+.newsCoin .newsCoin_view ul li{
+	height: 19px;
+	text-align: center;
+}
+.newsCoin .newsCoin_view ul li .coin_news_title{
+	font-size: 14px;
+	color: #EE4902;
+}
+.newsCoin .newsCoin_view ul li .time{
+	margin-left: 10px;
+}
+.newsCoin .newsCoin_view ul li a{
+	position: relative;
+	top:-3px;
+}
+.newsCoin .newsCoin_view ul li i{
+	width: 21px;
+	height: 18px;
+	margin-right: 11px;
+	display: inline-block;
+	background: url(//static.shuzibi.com/Home/images/index/remind_icon.png) no-repeat;
+	position: relative;
+	top:3px;
+}
+
+/*数字币行情*/
+.k-market{
+	width:1140px;margin:0px auto;
+	margin-bottom: 31px;
+}
+.k-market .market{
+	width:1140px;margin:0px auto;border: 1px solid #DDDDDD;
+}
+.k-market .chooseKline{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+}
+.k-market .chooseKline h3{
+	float: left;
+	font-size: 24px;
+	color: #333333;
+	line-height: 50px;
+	margin-right: 72px;
+}
+.k-market .chooseKline .KlineList{
+	float: left;
+}
+.k-market .chooseKline .KlineList li{
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	padding:0 20px;
+	font-size: 18px;
+	color: #333333;
+	cursor: pointer;
+}
+.k-market .chooseKline .KlineList li:hover{
+    background: #B3D4F9;
+    border-radius: 6px;
+}
+.k-market .chooseKline .KlineList li p span{
+	color: red;
+	margin-left: 5px;
+}
+.k-market .chooseKline .KlineList .active{
+	background: #B3D4F9;
+	border-radius: 6px;
+}
+
+/*币种列表*/
+#currency .coin_list{
+    width: 100%;
+    border-style: none;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #D8D8D8;
+    border-collapse: collapse;
+    margin-bottom: 61px;
+}
+#currency .coin_list tbody td,#currency .coin_list thead th{
+    background-color: #fff;
+    border-left: 1px solid #D8D8D8;
+    border-right: 1px solid #D8D8D8;
+    table-layout: automatic;
+    word-break: break-all;
+    border-collapse: collapse;
+}
+#currency .coin_list tbody td{
+	height: 38px;
+	padding: .5em;
+}
+#currency .coin_list tbody td:nth-child(2){
+    padding-right: 30px;
+    text-align: right;
+}
+#currency .coin_list tbody td a{
+	font-size: 14px;
+	color: #333333;
+}
+#currency .coin_list tbody td a:hover{
+	text-decoration: none;
+}
+#currency .coin_list tbody .coinName a:hover{
+	text-decoration: underline;
+}
+#currency .coin_list thead th{
+	background-color: #F5F9FE;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+    font-weight: 600;
+}    
+#currency .coin_list thead th:nth-child(2){
+    padding-right: 30px;
+    text-align: right;
+}
+#currency .coin_list tbody tr:nth-of-type(2n) td{
+	background-color: #F5F9FE;
+}
+
+#currency .coin_list tbody .coinName img{
+	margin-right: 5px;
+	float: left;
+}
+
+#currency .coin_list tbody tr td .sell {
+    color: #3c0;
+}
+#currency .coin_list tbody tr td .buy{ 
+	color:red;
+}
+#currency .coin_list tbody tr .coinName{
+	padding-left: 46px;
+	text-align: left;
+}
+#currency .coin_list tbody tr td .btn{
+	background: #FDE1DF;
+	border-radius: 6px;
+	font-size: 14px;
+	color: #DA2E22;
+	border:1px solid #FDE1DF;
+    outline: none;
+    padding: 4px 12px;
+}
+#currency .coin_list tbody tr td .btn:hover{
+	background: #DA2E22;
+	color: #FFFFFF;
+}
+#currency .coin_list tbody tr:hover td{
+	background: #FCFAE2;
+}
+#currency .coin_list tbody tr.active td{
+    background: #FCFAE2;
+}
+#currency {
+	margin-bottom: 60px;
+}
+#currency h3{
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 11px;
+}
+#currency h3 a{
+    font-size: 14px;
+    color: #1E62AC;
+    float: right;
+    margin-top: 12px;
+}
+/*最新资讯*/
+#information{
+	width: 100%;
+	background: #F5F9FE;
+}
+
+#information .information_view{
+	padding:30px 0;
+}
+
+#information .information_view h3{
+	font-size: 24px;
+	color: #333333;
+	margin-bottom: 30px;
+}
+#information .information_view ul{
+	width: 100%;
+}
+#information .information_view ul li{
+	width: 508px;
+	height: 130px;
+	display: inline-block;
+	padding:0 0 30px 34px;
+	box-sizing: border-box;
+	border-left: 1px solid #DDDDDD;
+    position: relative;
+    float: left;
+}
+#information .information_view ul li:nth-of-type(2n){
+	margin-left: 116px;
+}
+#information .information_view ul li i{
+	background: #368AE5;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+    left: -5px;
+    top: -5px;
+}
+#information .information_view ul li h4{
+	font-size: 18px;
+	color: #333333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 28px;
+    width: 473px;
+}
+#information .information_view ul li h4:hover{
+    text-decoration: underline;
+    color: #368AE5;
+}
+
+#information .information_view ul li p{
+	font-size: 14px;
+	color: #555555;
+	margin:10px 0;
+    height: 40px;
+/*    white-space: nowrap;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+#information .information_view ul li span{
+	font-size: 14px;
+	color: #999999;
+}
+#information .information_view ul li a{
+	text-decoration: none;
+}
+#information .information_view h3 a{
+	font-size: 14px;
+	color: #368AE5;
+	line-height: 40px;
+}
+#information .information_view h3 a:hover{
+	color: #368AE5;
+	text-decoration:underline;
+}
+.clearfix::after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.cutstr2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/*新手入门*/
+#introduction{
+	width: 100%;
+	height: 650px;
+	background: #fff;
+}
+
+#introduction .introduction_view{
+	width: 1140px;
+	height: 100%;
+	margin:0 auto;
+	padding:56px 0;
+	box-sizing: border-box;
+}
+#introduction .introduction_view h3{
+	font-size: 24px;
+	color: #333333;
+	margin-bottom: 40px;
+}
+#introduction .introduction_view h3 a{
+	font-size: 14px;
+	color: #368AE5;
+	line-height: 40px;
+}
+#introduction .introduction_view h3 a:hover{
+	text-decoration: underline;
+	color: #368AE5;
+}
+#introduction .introduction_view ul{
+    height: 158px;
+}
+#introduction .introduction_view ul li{
+	float: left;
+	width: 270px;
+	height: 158px;
+	margin-right:20px;
+}
+#introduction .introduction_view ul li:hover{
+    box-shadow: 0 4px 8px 0 #CAD9EA;
+}
+#introduction .introduction_view ul li:nth-child(4){
+	margin:0;
+}
+#introduction .introduction_view ul li img{
+	max-width: 100%;
+}
+#introduction .introduction_list{
+    padding-top: 101px;
+    width: 100%;
+    height: 160px;
+}
+#introduction .introduction_list dl{
+    float: left;
+    margin-right: 198px;
+    min-width: 100px;
+}
+#introduction .introduction_list dl:nth-child(1){
+    margin-left: 62px;
+}
+#introduction .introduction_list dl:nth-child(4){
+    margin:0;
+}
+#introduction .introduction_list dl dt{
+    width: 100px;
+    height: 100px;
+    margin:0 auto 29px;
+}
+#introduction .introduction_list dl dt img{
+    max-width: 100%;
+}
+#introduction .introduction_list dl dd h4{
+    font-size: 24px;
+    color: #333333;
+}
+/*投资人*/
+#vestors{
+	width: 100%;
+	height: 640px;
+	background: #F5F9FE;
+    padding-bottom: 200px;
+}
+#vestors .vestorsView{
+	width: 1140px;
+	height: 100%;
+	margin:0 auto ;
+	padding:30px 0 100px 0;
+	box-sizing: border-box;
+}
+#vestors .vestorsView h2{
+	font-size: 65px;
+	color: #FFFFFF;
+	letter-spacing: 4.33px;
+	line-height: 78px;
+	text-align: center;
+}
+#vestors .vestorsView h3{
+	font-size: 36px;
+	color: #333333;
+	line-height: 47px;
+	text-align: center;
+	margin-bottom: 63px;
+}
+#vestors .vestorsView ul{
+	width: 100%;
+	height: 320px;
+}
+#vestors .vestorsView ul li{
+	width: 230px;
+	height: 100%;
+	float: left;
+	margin-right: 225px;
+}
+#vestors .vestorsView ul li:nth-child(3){
+	margin:0;
+}
+#vestors .vestorsView ul li dl{
+	width: 100%;
+	height: 100%;
+}
+#vestors .vestorsView ul li dl dt{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin:0 auto 20px; 
+}
+#vestors .vestorsView ul li dl dt img{
+	max-width: 100%;
+}
+#vestors .vestorsView ul li dl dd h4{
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#vestors .vestorsView ul li dl dd p{
+	font-size: 16px;
+	color: #666666;
+	letter-spacing: 1.07px;
+	line-height: 24px;
+    text-align: center;
+}
+
+/*footer*/
+.coin_footer{
+	width: 100%;
+	background: #333848;
+	z-index: 9999;
+}
+.coin_footer .footerView{
+	width: 1140px;
+	height:200px;
+	margin:0 auto;   
+	padding:50px 0;
+	box-sizing: border-box;   
+}
+.coin_footer .footerView .footerNav{
+	width: 362px;
+	height: 19px;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+.coin_footer .footerView .footerNav li{
+	width: 56px;
+	float: left;
+	margin-right: 46px;
+	margin-left: 0;
+}
+.coin_footer .footerView .footerNav li:nth-child(4){
+	margin:0;
+}
+.coin_footer .footerView .footerNav li a{
+	font-size: 14px;
+	color: #FFFFFF;
+    height: 19px;
+    line-height: 19px;
+}
+.coin_footer .footerView .footerNav li a:hover{
+	text-decoration: none!important;
+}
+.coin_footer .footerView .footer_left{
+	width: 262px;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+}
+.coin_footer .footerView .footer_right{
+	float: right;
+	width: 442px;
+	color: #fff;
+	font-size: 14px;
+}
+.coin_footer .footerView .footer_left p,.coin_footer .footerView .footer_right p{
+	margin-bottom: 13px;
+}
+.coin_footer .footerView .footer_right p{
+	text-align: right;
+}
+
+/*交易详情——left*/
+.main_box{
+	width: 1140px;
+	margin:0 auto;
+
+}
+.main_box .currency_list{
+	width: 290px;
+	float: left;
+}
+.main_box .currency_list .currencyView{
+    width: 100%;
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+.main_box .currency_list .currencyView ul{
+    position: absolute;
+    top:0;
+    margin-bottom: 0;
+}
+.main_box .currency_list #sliderParent_BTC,.main_box .currency_list #sliderParent_ETH{
+    position:absolute;
+    right:0;
+    height:420px;
+    width:12px;
+    z-index:999;
+    background:rgba(179,212,249,0.4);
+    border-radius: 16px;
+}
+.main_box .currency_list #sliderParent_BTC #slider_BTC,.main_box .currency_list #sliderParent_ETH #slider_ETH{
+    position:absolute;
+    top:0px;
+    right:0;
+    width:12px;
+    border-radius:6px;
+    background:#ccc;
+    cursor:pointer;
+    border-radius: 16px;
+    background: rgba(54,138,229,0.4);
+}
+.main_box .currency_list #sliderParent_BTC #slider_BTC:hover,.main_box .currency_list #sliderParent_ETH #slider_ETH:hover{
+    background: #368AE5;
+}
+.main_box .currency_list ul{
+	width: 100%;
+    margin-bottom: 16px;
+    background: #F5F9FE;
+}
+.main_box .currency_list ul a:hover{
+	text-decoration: none;
+}
+.main_box .currency_list ul li{
+	width: 100%;
+	min-height: 42px;
+	padding:0 0 0 13px;
+	box-sizing: border-box;
+    line-height: 42px;
+    font-size: 14px;
+	color: #333;
+	cursor: pointer;
+}
+.main_box .currency_list ul .active{
+	background: #FFFFFF;
+}
+.main_box .currency_list ul .active .currency_name{
+	color: #368AE5;
+}
+.main_box .currency_list ul li:hover{
+	background: #FFFFFF;
+}
+.main_box .currency_list ul li:hover .currency_name{
+	color: #368AE5;
+}
+.main_box .currency_list ul li img{
+	width:20px;
+	height: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+    top: 5px;
+    margin-right: 4px;
+}
+.main_box .currency_list h2{
+	width: 100%;
+	height: 52px;
+	line-height: 52px;
+	font-size: 18px;
+	color: #333333;
+	padding-left: 18px;
+	box-sizing: border-box;
+    background: #F5F9FE;
+    font-weight: bold;
+}
+.main_box .currency_list li .currency_name{
+	margin-right: 2px;
+    color: #555;
+}
+.main_box .currency_list li .money{
+	margin-left:4px;
+    font-size: 12px;
+}
+.main_box .currency_list li .rmbPrice{
+    color: #555;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.main_box .currency_list li .buy{
+	color: #E62512;
+}
+.main_box .currency_list li .sell{
+	color: #009900;
+}
+
+.main_box .currency_list li .status.buy{
+    width: 13px;
+    height: 17px;
+    display: inline-block;
+    background: url(//static.shuzibi.com/Home/images/index/buy.png) no-repeat;
+    position: relative;
+    top: 4px;
+}
+.main_box .currency_list li .status.sell{
+    width: 13px;
+    height: 17px;
+    display: inline-block;
+    background: url(//static.shuzibi.com/Home/images/index/sell.png) no-repeat;
+    position: relative;
+    top: 4px;
+}
+.main_box #graphbox{
+	border: 1px solid #DDDDDD;
+}
+
+#chart-control{
+	width: 100.4%;
+	height: 52px;
+	margin:0 auto;
+	padding:12px 20px;
+	box-sizing: border-box;
+	background: #F5F9FE;
+}
+#chart-control button{
+	padding:0px 12px;
+	margin-right:7px;
+	height: 28px;
+	line-height: 25px;
+	font-size: 12px;
+	color: #368AE5;
+	background: #fff;
+	border-radius: 6px;
+	border:none;
+	outline: none;
+    text-shadow:none;
+    border:1px solid #368AE5;
+}
+#chart-control .Introduction{
+    cursor: pointer;
+    color: #009900;
+    border:1px solid #009900;
+}
+#chart-control .btn-success{
+	background: #368AE5;
+    color: #fff;
+}
+#chart-control .Introduction{
+	display: inline-block;
+    vertical-align: middle;
+}
+/*大全区*/
+.currency_all #currency .coinView{
+    width: 100%;
+    max-height: 498px;
+    overflow: hidden;
+    border-bottom: 1px solid #D8D8D8;
+}
+.currency_all #currency .coin_list{
+    margin-bottom: 0;
+}
+.currency_all #currency .coinTable{
+    border:none;
+}
+.currency_all #currency .coinTable .coin_num td:nth-child(1){
+    width: 191px;
+    box-sizing: border-box;
+}
+.currency_all #currency .coinTable .coin_num td:nth-child(2){
+    width: 280px;
+    box-sizing: border-box;
+}
+.currency_all #currency .coinTable .coin_num td:nth-child(3){
+    width: 152px;
+}
+.currency_all #currency .coinTable .coin_num td:nth-child(4){
+    width: 113px;
+}
+.currency_all #currency .coinTable .coin_num td:nth-child(5){
+    width: 177px;
+}
+.currency_all #currency .coinTable .coin_num td:nth-child(6){
+    width: 177px;
+}
+.currency_all #currency h3{
+    height: 42px;
+    display: inline-block;
+    margin: 0;
+    float: left;
+}
+.currency_all #currency .currency_header{
+    width: 100%;
+    height: 42px;
+    margin-bottom: 11px;
+    margin-top: 60px;
+}
+.currency_all #currency .currency_header:nth-child(1){
+    margin-top: 24px;
+}
+.currency_all #currency .currency_header .search{
+    width: 300px;
+    height: 42px;
+    float: right;
+    background: #F5F9FE;
+    border-radius: 6px;
+}
+.currency_all #currency .currency_header .search input{
+    width:260px;
+    height: 42px;
+    font-size: 14px;
+    color: #999999;
+    background: #F5F9FE;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.currency_all #currency .currency_header .search button{
+    width:19px;
+    height: 19px;
+    display: inline-block;
+    background: url(//static.shuzibi.com/Home/images/index/search.png) no-repeat;
+    border:none;
+    padding:0;
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+}
+/*交易*/
+#main .trading{
+    padding-left: 16px;
+    width: 834px;
+    float: right;
+}
+/*交易托单*/
+#main .trading .transact{
+	width: 100%;
+	background: #fff;
+}
+#main .trading .transact .list_con2:nth-of-type(2n){
+    background: #F5F9FE;
+}
+#main .trading .transact .list_con2{
+    background: #fff;
+}
+#main .trading .transact .transact_header{
+	width: 100%;
+	height: 50px;
+	display: flex;
+    background: #fff;
+}
+#main .trading .transact .transact_header a{
+	display: inline-block;
+	flex: 1;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333333;
+    background: #fff;
+    width: 32%;
+}
+#main .trading .transact .transact_header .active{
+    background: #F5F9FE;
+}
+#main .trading .transact .transact_header a:hover{
+	text-decoration: none;
+}
+
+#main .trading .transact .hosting{
+	width: 100%;
+	max-height: 432px;
+    border: 1px solid #DDD;
+}
+#main .trading .transact .hosting table{
+    width: 50%;
+    float: left;
+}
+#main .trading .transact .hosting table tbody tr td:nth-child(3){
+/*	padding-left: 7px;*/
+}
+#main .trading .transact .hosting table tbody tr:hover td{
+	background: #FCFAE2;
+}
+#main .trading .transact .hosting #coinsalelist{
+/*	display: none;*/
+}
+#main .trading .transact .hosting #coinbuylist{
+/*	display: none;*/
+}
+#main .trading .transact tbody tr td:nth-child(2),#main .trading .transact tbody tr td:nth-child(3){
+    cursor: pointer;
+}
+/*交易买/卖*/
+#main .trading .buysell .buyformarea .buyform .inputting{
+	width: 100%;
+	height: 42px;
+	margin-bottom: 10px;
+}
+#main .trading .buysell .buyformarea .buyform .inputting label{
+	width: 100%;
+    height: 42px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    display: inline-block;
+}
+#main .trading .buysell .buyformarea .buyform .inputting label input{
+	width: 100%;
+	height: 100%;
+	border: none;
+    padding: 0;
+    text-align: right;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 6px;
+}
+#main .trading .buysell .buyformarea .buyform .inputting label .unit{
+	position: absolute;
+    left: 0;
+    top: 6px;
+    font-size: 14px;
+    color: #CCCCCC;
+}
+
+#main .trading .buysell .buyformarea .buyform .inputting label .mainUnit{
+    width: 100%;
+    line-height: 24px;
+    display: inline-block;
+    padding: 0;
+    background: #FDEEEC;
+    box-shadow: 0 4px 6px 0 #FCD5D2;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #E62512;
+    cursor: pointer;
+    padding-left: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    display: none;
+    position: relative;
+    top: -10px;
+}
+
+#main .trading .buysell .buyformarea .buyform .inputting label .mainUnit i{
+    font-style: initial;
+    position: absolute;
+    right: 10px;
+}
+
+#main .trading .buysell .buyformarea .buy,#main .trading .buysell .buyformarea .sell{
+	height: 28px;
+}
+#main .trading .buysell .buyformarea .buy .balance{
+	color: #E62512;
+	margin-left: 6px;
+}
+#main .trading .buysell .buyformarea .sell .balance{
+	color: #009900;;
+	margin-left: 6px;
+}
+
+#main .trading .buysell .buyformarea .buy a,#main .trading .buysell .buyformarea .sell a{
+	background: #368AE5;
+	border-radius: 6px;
+	font-size: 12px;
+	color: #FFFFFF;
+	height: 28px;
+	border: none;
+    float: right;
+    text-align: center;
+    text-shadow: none;
+    font-weight: 500;
+    padding: 0 12px;
+}
+#main .trading .buysell .buyformarea .buy a:hover,#main .trading .buysell .buyformarea .sell a:hover{
+    background: #2A79CF;
+}
+#main .trading .buysell .buyformarea .buy a:hover,#main .trading .buysell .buyformarea .sell a:hover{
+    text-decoration: none;
+}
+
+#main .trading .buysell .buyformarea .buyform .Trading_information{
+	width: 100%;
+	height: 80px;
+	border:1px dashed #DDD;
+	border-radius: 6px;
+	padding:10px;
+	box-sizing: border-box;
+    margin-bottom: 10px;
+}
+#pwdtradein{
+	text-align: left!important;
+}
+#pwdtradeout{
+	text-align: left!important;
+}
+#main .trading .buysell .buyformarea .sellform{
+	width: 100%;
+	height: 42px;
+	background: #FEEEED;
+	border-radius: 6px;
+	line-height: 42px;
+	text-align: center;
+	font-size: 12px;
+	color: #E62512;
+}
+
+#main .trading .buysell .buyformarea .Trading_information p{
+	font-size: 12px;
+	color: #555555;
+	line-height: 16px;
+    margin-bottom: 6px;
+}
+#main .trading .buysell .buyformarea .Trading_information p b{
+	font-size: 12px;
+	color: #252525;
+}
+#main .trading .buysell .buyformarea .Trading_information p span{
+    font-weight: 400;
+    float: right;
+}
+#main .trading .buysell .buyformarea .Trading_information p #coinin_sumprice,#main .trading .buysell .buyformarea .Trading_information p #coinout_sumprice{
+	color: #E62512;
+}
+
+#main .trading .buysell{
+	position: relative;
+    margin-bottom: 17px;
+}
+#main .trading .buysell .noLogin{
+	width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#main .trading .buysell .noLogin .login_hosting{
+    width: 217px;
+    height: 67px;
+    background: #FFB500;
+    border-radius: 6px;
+    display: inline-block;
+    line-height: 67px;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+#main .trading .buysell .noLogin .login_hosting:hover{
+	text-decoration: none;
+	background: #F6A623;
+}
+/*我的委托*/
+#main .trading .curve .latest{
+	width: 100%;
+    margin-bottom: 30px;
+}
+#main .trading .curve .latest h2{
+	width: 100%;
+	height:52px;
+	background: #fff;
+	padding:14px 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	color: #333333;
+	line-height: 24px;
+}
+#main .trading .curve .latest h2 .my_coin_trade{
+    color: #555555;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+#main .trading .curve .latest table{
+	width: 100%;
+	border:1px solid #DDD;
+}
+#main .trading .curve .latest table thead tr{
+	height: 50px;
+}
+#main .trading .curve .latest table thead th{
+	background: #F5F9FE;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+	padding:0;
+}
+#main .trading .curve .latest table tbody td{
+	padding:0;
+	text-align: center;
+}
+#main .trading .curve .latest table tbody td:nth-child(8) a{
+	font-size: 14px;
+	color: #368AE5;
+}
+#main .trading .curve .latest #mycointrustlist .list_con2:nth-of-type(2n){
+	background: #F5F9FE;
+}
+#main .trading .curve .latest #mycointrustlist .list_con2:hover{
+	background: #FCFAE2;
+}
+/*最近成交*/
+#main .trading .curve .buysell .buy_header{
+    min-width: 230px;
+    _width:230px;
+    height: 52px;
+    background: #fff;
+    display: inline-block;
+}
+#main .trading .curve .buysell .buy_header a{
+	width: 230px;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	color: #333333;
+	display: inline-block;
+}
+#main .trading .curve .buysell .buy_header a:hover{
+	text-decoration: none;
+}
+#main .trading .curve .buysell .buy_header .active{
+	background: #F5F9FE;
+	border-top:1px solid #DDD;
+	border-left:1px solid #DDD;
+	border-right:1px solid #DDD;
+}
+#main .trading .curve .buysell .record .record_list{
+	width: 100%;
+	border:1px solid #DDD;
+}
+#main .trading .curve .buysell .record thead tr{
+	height: 50px;
+	background: #fff;
+}
+#main .trading .curve .buysell .record thead th{
+	background: #F5F9FE;
+	padding: 0;
+	text-align: center;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 14px;
+}
+#main .trading .curve .buysell .record tbody tr{
+	height: 38px;
+}
+#main .trading .curve .buysell .record tbody tr .buy{
+	color: #E62512;
+}
+#main .trading .curve .buysell .record tbody tr .sell{
+	color: #009900;
+}
+#main .trading .curve .buysell .record tbody tr:hover td{
+	background: #FCFAE2!important;
+}
+#main .trading .curve .buysell .record tbody tr td{
+	background: #fff;
+	padding: 0;
+	text-align: center;
+	font-size: 14px;
+}
+#main .trading .curve .buysell .record tbody tr:nth-of-type(2n) td{
+	background: #F5F9FE;
+}
+#main .trading .curve .buysell .record #my_coinorderlist{
+	display: none;
+}
+
+/*风险提示*/
+#riskTips{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    z-index: 9996;
+}
+#riskTips .riskTipsView{
+    width:448px;
+    height: 267px;
+    background: #F5F9FE;
+    border-radius: 6px;
+    padding:40px 51px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 10000;
+}
+#riskTips .riskTipsView h2{
+   font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 38px;
+}
+#riskTips .riskTipsView p{
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+#riskTips .riskTipsView button{
+    width: 300px;
+    height: 42px;
+    background: #368AE5;
+    border-radius: 6px;
+    line-height: 42px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    margin: 35px 0 0 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+#riskTips .riskTipsView button:hover{
+    background: #2A79CF;
+}
